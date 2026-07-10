@@ -16,8 +16,7 @@ haz nunca llega al detector.
 
 **Datos:** un único CSV, `simion_opt_v/beamline_distance_results.csv` — cada fila trae `hits` y
 `distance_mm` de la misma corrida de SIMION, así que las dos cabezas se entrenan siempre con
-las mismas filas. El diseño inicial reusa el estudio de Optuna de `optimizer.py` (TPE, no
-Sobol) porque la señal es demasiado escasa (~2-5%) para que un barrido espacial la encuentre.
+las mismas filas. El diseño inicial reusa el estudio de Optuna de `optimizer.py`.
 
 ## Dependencias: `gp.py` / `acquisition.py` (sin tocar) → `_final.py` (nuevo)
 
